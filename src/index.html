@@ -4,15 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Front End Web 100</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-        <h1>Front End Web 100 Starter</h1>
-        <h2>Progressive ITU</h2>
+    <a href="http://www.google.com">click me</a>
+    <header class="container-fluid jumbotron">
+        <h1>First Application</h1>
+        <p class="subheading">Some Cool stuff</p>
     </header>
-    <main>
-        
+    <main class="container">
+        <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input class="form-control"
+                   id="firstName">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input class="form-control"
+                   id="lastName">
+        </div>
+        <button id="formatIt"
+                class="btn btn-primary">Format Name</button>
+        <div class="alert alert-info">
+            <h3 id="formatted">Your Formatted Name will go here</h3>
+        </div>
+        <div class="alert alert-success">
+            <div class="form-group">
+                <label for="firstNum">First NUmber</label>
+                <input type="number"
+                       class="form-control"
+                       id="firstNum">
+            </div>
+            <div class="form-group">
+                <label for="secondNum">Second NUmber</label>
+                <input type="number"
+                       class="form-control"
+                       id="secondNum">
+            </div>
+            <button id="add"
+                    class="btn btn-primary">Add here</button>
+            <div class="alert alert-info">
+                <h3 id="added">Your Formatted Name will go here</h3>
+            </div>
     </main>
 </body>
 
